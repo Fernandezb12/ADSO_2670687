@@ -98,16 +98,19 @@ let inverp2 = prompt("Ingrese la cantidad invertida por la persona 2:");
 let nomb3 = prompt("Ingrese el Nombre del tercer inversionista:");
 let inverp3 = prompt("Ingrese la cantidad invertida por la persona 3:");
 
-let totalInv = InverP1 + inverp2 + inverp3;
+let totalInv = inverP1 + inverp2 + inverp3;
 
 let porcenInver1 = (inverP1 / totalInv) * 100;
 let porcenInver2 = (inverp2 / totalInv) * 100;
 let porcenInver3 = (inverp3 / totalInv) * 100;
 
-alert("El porcentaje de inversión de "+nomb1+ "es de "+inverP1+"%"+
-    "\nPorcentaje de inversion de " +nomb2+ "es de "+inverp2+"%"+
-    "\nPorcentaje de inversion de " +nomb3+ "es de "+inverp3);
+alert("El porcentaje de inversión de "+nomb1+ " es de "+inverP1+"%"+
+    "\nPorcentaje de inversion de " +nomb2+ " es de "+inverp2+"%"+
+    "\nPorcentaje de inversion de " +nomb3+ " es de "+inverp3);
 
+
+/* Ejercicio 10 -- Realizar una calculadora con las operaciones básicas suma, división, 
+multiplicación y división.*/
 
 
 
