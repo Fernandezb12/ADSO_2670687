@@ -106,7 +106,7 @@ let porcenInver3 = (inverp3 / totalInv) * 100;
 
 alert("El porcentaje de inversión de "+nomb1+ " es de "+inverP1+"%"+
     "\nPorcentaje de inversion de " +nomb2+ " es de "+inverp2+"%"+
-    "\nPorcentaje de inversion de " +nomb3+ " es de "+inverp3);
+    "\nPorcentaje de inversion de " +nomb3+ " es de "+inverp3+"%");
 
 
 /* Ejercicio 10 -- Realizar una calculadora con las operaciones básicas suma, división, 
