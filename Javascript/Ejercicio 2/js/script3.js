@@ -14,3 +14,30 @@ let capital = prompt("Ingrese el monto de capital a invertir:");
 let interesM = 2/100;
 let montoF = parseInt(capital*interesM)
 alert("El monto final después de un mes con el interés aplicado es: $" +montoF+ "COP");*/
+
+/* Ejercicio 3 -- Un alumno desea saber cuál será su calificación final en la materia de
+Algoritmos. Dicha calificación se compone de los siguientes porcentajes:
+a. 55% del promedio de sus tres calificaciones parciales.
+b. 30% de la calificación del examen final.
+c. 15% de la calificación de un trabajo final
+
+let cparcial = prompt("Ingrese la calificación del primer parcial:");
+let examf = prompt("Ingrese la calificación del examen final:");
+let trabfinal = prompt("Ingrese la calificación del trabajo final:");
+
+const porcenparcial = 55/100;
+const porcexamen = 30/100;
+const porctrabfinal = 15/100;
+let prom = (cparcial + examf + trabfinal) /3;
+let califinal = (cparcial * porcenparcial) + (examf * porcexamen) + (trabfinal * porctrabfinal);
+
+alert("La calificación final en la materia de Algoritmos es: " +califinal); */
+
+/* Ejercicio 4 --  El dueño de una tienda compra un artículo a un precio determinado. Obtener el 
+precio en que lo debe vender para obtener una ganancia del 30%. 
+
+let articulo = prompt("Ingrese el precio del articulo:");
+const porcG = 30/100;
+let ganancia = (articulo * porcG);
+let pventa = (articulo + ganancia);
+alert("El precio de venta para obtener una ganancia del 30% es: $" +pventa)*/
